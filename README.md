@@ -1,5 +1,7 @@
 # bloom filter
-[![tests](https://github.com/hvuhsg/py-bloom-filter/actions/workflows/tests.yml/badge.svg)](https://github.com/hvuhsg/py-bloom-filter/actions/workflows/tests.yml)  
+[![tests](https://github.com/hvuhsg/py-bloom-filter/actions/workflows/tests.yml/badge.svg)](https://github.com/hvuhsg/py-bloom-filter/actions/workflows/tests.yml)
+[![PyPI version](https://badge.fury.io/py/easy-bloom-filter.svg)](https://badge.fury.io/py/easy-bloom-filter)  
+
 python implementation of bloom filter  
   
 What is bloom filter? https://en.wikipedia.org/wiki/Bloom_filter
