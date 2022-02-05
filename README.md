@@ -1,6 +1,6 @@
 # bloom filter
-python implementation of bloom filter  
 [![tests](https://github.com/hvuhsg/py-bloom-filter/actions/workflows/tests.yml/badge.svg)](https://github.com/hvuhsg/py-bloom-filter/actions/workflows/tests.yml)  
+python implementation of bloom filter  
   
 What is bloom filter? https://en.wikipedia.org/wiki/Bloom_filter
 
