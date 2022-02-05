@@ -1,6 +1,7 @@
 # bloom filter
 python implementation of bloom filter
 
+What is bloom filter? https://en.wikipedia.org/wiki/Bloom_filter
 
 ## installation
 ```shell
@@ -19,20 +20,18 @@ bf.add_element("first")
 bf.add_element("second")
 bf.add_element({"num": "3"})
 
-print(bf.query("4")     == Response.NO)     # True
-print(bf.query("first") == Response.MAYBE)  # True
+print(bf.query("4")     == Response.NO)     # True (not added to filter)
+print(bf.query("first") == Response.MAYBE)  # True (maybe added to filter check with the source of truth)
 
 print(bf.false_positive_probability)  # 9.09884490736791e-08
 print(bf.actual_size)                 # 2000  (round to multiple of 8 for storing the data on bits)
 ```
 
-## test
 ### install dev requirements
 ```shell
 $ pip install -r requirements-dev.txt
 ```
 
-### run tests
 #### only tests
 ```shell
 $ pytest .
