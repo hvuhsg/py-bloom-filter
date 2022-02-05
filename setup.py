@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 
 setuptools.setup(
-    name='py-bloom-filter',
+    name='easy-bloom-filter',
     packages=setuptools.find_packages(),
     version='0.1.0',
     license='MIT',

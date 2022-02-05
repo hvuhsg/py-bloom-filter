@@ -6,7 +6,7 @@ What is bloom filter? https://en.wikipedia.org/wiki/Bloom_filter
 
 ## installation
 ```shell
-$ pip install py-bloom-filter
+$ pip install easy-bloom-filter
 ```
 
 ## usage

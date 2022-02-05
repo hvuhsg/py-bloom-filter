@@ -1,7 +1,7 @@
 from sys import getsizeof
 import pytest
 
-from py_bloom_filter import BloomFilter, Response
+from easy_bloom_filter import BloomFilter, Response
 
 
 def test_rounding_size():
