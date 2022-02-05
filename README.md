@@ -13,7 +13,7 @@ $ pip install easy-bloom-filter
 Simple example
 
 ```python
-from py_bloom_filter import BloomFilter, Response
+from easy_bloom_filter import BloomFilter, Response
 
 bf = BloomFilter(init_size=2001, func_count=3)
 
